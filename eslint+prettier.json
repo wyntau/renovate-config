@@ -2,7 +2,12 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchPackageNames": ["eslint", "prettier"],
+      "matchPackageNames": [
+        "eslint",
+        "prettier",
+        "vue-eslint-parser",
+        "@babel/eslint-parser"
+      ],
       "matchPackagePatterns": [
         "^@typescript-eslint/.*",
         "^@angular-eslint/.*",
