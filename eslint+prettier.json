@@ -4,15 +4,9 @@
     {
       "matchPackageNames": [
         "eslint",
-        "@typescript-eslint/eslint-plugin",
-        "@typescript-eslint/parser",
-        "eslint-plugin-react",
-        "eslint-plugin-react-hooks",
-        "eslint-plugin-vue",
-        "eslint-config-prettier",
-        "eslint-plugin-prettier",
         "prettier"
       ],
+      "matchPackagePatterns": ["^@typescript-eslint/.*", "^@angular-eslint/.*", "^eslint-plugin-.*", "^eslint-config-.*"],
       "groupName": "eslint+prettier dependencies"
     }
   ]
