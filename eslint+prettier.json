@@ -2,11 +2,13 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "matchPackageNames": [
-        "eslint",
-        "prettier"
+      "matchPackageNames": ["eslint", "prettier"],
+      "matchPackagePatterns": [
+        "^@typescript-eslint/.*",
+        "^@angular-eslint/.*",
+        "^eslint-plugin-.*",
+        "^eslint-config-.*"
       ],
-      "matchPackagePatterns": ["^@typescript-eslint/.*", "^@angular-eslint/.*", "^eslint-plugin-.*", "^eslint-config-.*"],
       "groupName": "eslint+prettier dependencies"
     }
   ]

@@ -12,6 +12,6 @@
     "prettier": "^2.4.1"
   },
   "scripts": {
-    "prepack": "husky install"
+    "prepare": "husky install"
   }
 }
