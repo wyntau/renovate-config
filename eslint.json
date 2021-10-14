@@ -1,0 +1,18 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "eslint",
+        "eslint-config-prettier",
+        "eslint-plugin-prettier",
+        "@typescript-eslint/eslint-plugin",
+        "@typescript-eslint/parser",
+        "eslint-plugin-react",
+        "eslint-plugin-react-hooks",
+        "prettier"
+      ],
+      "groupName": "eslint dependencies"
+    }
+  ]
+}

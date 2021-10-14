@@ -1,0 +1,4 @@
+# renovate config
+
+## License
+MIT
