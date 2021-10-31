@@ -1,3 +1,0 @@
-{
-  "*.json": "prettier --trailing-comma none --write"
-}

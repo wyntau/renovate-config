@@ -15,5 +15,13 @@
   },
   "scripts": {
     "prepare": "(husky install 2>/dev/null ||:) && mkdir -p .husky"
+  },
+  "lint-staged": {
+    "*.json": "prettier --trailing-comma none --write"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
   }
 }
